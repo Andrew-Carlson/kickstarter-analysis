@@ -1,5 +1,6 @@
 # kickstarter-analysis
 Performing analysis on Kickstarter data to uncover trends
+
 ![outcome_vs_launch_date](https://user-images.githubusercontent.com/98781992/174171521-0a3ef9e8-73ca-43d6-8ba5-afb1a7772f78.png)
 
 Fig. 1. Outcome of Kickstarter campaign versus launch date.
