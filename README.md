@@ -10,12 +10,14 @@ The purpose of this project is to use campaign data obtained from Kickstarter. T
 ### Analysis of Outcomes Based on Launch Date
 A useful pivot table and chart was created to discover trends between the outcomes of different categories of Kickstarter campaigns based on the date in which the campaign was launched. The visualization made is useful in helping decide when the best time to launch a Kickstarter campaign for a given category of campaigns. The pivot chart could also be filtered based on a specific year to see how trends have changed or remained the same year to year. The line chart shown below displays the campaign outcome based on Launch date for all years in the dataset for the parent category of theater. 
 
+
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/98781992/174678659-cfc6e419-877d-446f-9c6f-160617562576.png)
 
 Figure 1. Line chart for theater outcomes based on launch date. 
 
 ### Analysis of Outcomes Based on Goals
 A line chart was created to establish the percent of campaigns that were successful, failed, or canceled based on the monetary goal for the campaign. This chart is useful in determining what is a realistic goal for a Kickstarter campaign. 
+
 
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/98781992/174681422-21d7c484-ed86-4993-954a-16fef649a757.png)
 
@@ -27,16 +29,22 @@ One of the challenges encountered was finding the correct syntax for the COUNTIF
 ## Results
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
+
 In the line chart shown in Figure 1, it can be noted that the best month to launch a Kickstarter campaign for the theater category is in May. The lowest amount of successful Kickstarter campaigns occur in December. The amount of canceled campaigns stays relatively constant month-to-month, while failed theater Kickstarter campaigns occur most in May and October.
 
 - What can you conclude about the Outcomes based on Goals?
+
 In the line chart shown in Figure 2, it can be noted that the success rate of campaigns decreases as the monetary goal amount increases, and there is an inverse relationship between the percent successful campaigns and the percent failed campaigns with the goal amount. 
 
 - What are some limitations of this dataset?
+
 A limitation of the dataset could be that there is no data past the year 2017 which does not show the potential changes in trends in more recent years. Another limitation is that the dataset does not provide information to find out what are the most lucrative dates in which the most backers donate to campaigns. 
 
 - What are some other possible tables and/or graphs that we could create?
+
 It may be useful to include a pivot table that shows what are the countries with the most campaign backers that can be filtered by category to see which categories are more popular in certain countries. The count of backers successful, failed, and canceled campaigns can also be included. Figure 3 shows the pivot table that could be of potential use. 
+
+
 ![Country_vs_backers_count](https://user-images.githubusercontent.com/98781992/174690041-d6ba5fd9-8319-409a-8a89-e54bd77fbeed.png)
 
 Figure 3. Country of campaign vs. Backers count for successful, failed, and cancelled campaigns.
